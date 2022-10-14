@@ -1,10 +1,28 @@
 Array of number of moves required for misplaced tiles heuristic
-[567, 377, 782, 37, 27, 174, 297, 52, 330, 58, 29, 23, 39, 413, 283, 21, 18, 63, 34, 31, 201, 380, 278, 1007, 42, 208, 62, 205, 292, 188, 23, 379, 358, 75, 19, 34, 250, 60, 63, 105, 216, 23, 561, 19, 97, 179, 558, 212, 51, 316, 28, 30, 79, 44, 32, 650, 39, 479, 11, 30, 28, 227, 71, 20, 47, 55, 43, 232, 48, 39, 348, 42, 847, 54, 52, 27, 59, 39, 176, 568, 11, 149, 378, 31, 414, 207, 173, 59, 65, 769, 37, 411, 526, 660, 521, 359, 38, 76, 53, 730]
+[16, 66, 25, 25, 404, 97, 429, 26, 265, 302, 70, 223, 21, 167, 67, 35, 65, 46, 30, 32, 346, 662, 40, 563, 543, 25, 618, 618, 435, 43, 354, 153, 43, 51, 60, 30, 167, 80, 51, 36, 168, 94, 20, 20, 26, 273, 195, 2335, 39, 39, 373, 525, 52, 66, 62, 19, 36, 255, 831, 420, 307, 810, 357, 32, 25, 32, 398, 15, 206, 360, 372, 308, 52, 53, 439, 40, 203, 188, 35, 99, 21, 197, 66, 376, 244, 26, 206, 45, 43, 28, 53, 40, 347, 26, 669, 35, 502, 45, 324, 585]
 Array of number of moves required for manhattan distance heuristic
-[161, 139, 116, 25, 29, 106, 195, 38, 142, 34, 29, 17, 25, 153, 137, 23, 12, 27, 20, 45, 91, 102, 144, 151, 24, 148, 34, 89, 94, 144, 25, 149, 158, 29, 27, 36, 66, 12, 67, 125, 164, 17, 137, 19, 93, 117, 132, 80, 43, 204, 12, 14, 51, 24, 28, 128, 25, 101, 9, 14, 32, 99, 25, 18, 33, 39, 21, 154, 32, 23, 202, 32, 153, 58, 40, 13, 19, 23, 128, 106, 13, 101, 156, 27, 120, 67, 81, 41, 37, 165, 41, 157, 152, 178, 129, 115, 24, 36, 31, 154]
+[12, 44, 35, 7, 144, 69, 121, 16, 99, 146, 56, 103, 19, 87, 29, 21, 33, 32, 40, 52, 118, 140, 40, 199, 127, 29, 220, 196, 153, 31, 154, 101, 33, 19, 42, 32, 147, 36, 39, 30, 72, 86, 22, 28, 36, 119, 119, 145, 25, 27, 93, 93, 28, 42, 38, 19, 48, 165, 107, 132, 109, 190, 185, 10, 29, 30, 130, 27, 106, 112, 172, 106, 28, 35, 163, 40, 111, 114, 9, 135, 17, 141, 48, 314, 94, 22, 100, 41, 31, 16, 37, 28, 99, 30, 119, 35, 208, 39, 112, 185]
 Sample of differences (Misplaced - Manhattan
-[406, 238, 666, 12, -2, 68, 102, 14, 188, 24, 0, 6, 14, 260, 146, -2, 6, 36, 14, -14, 110, 278, 134, 856, 18, 60, 28, 116, 198, 44, -2, 230, 200, 46, -8, -2, 184, 48, -4, -20, 52, 6, 424, 0, 4, 62, 426, 132, 8, 112, 16, 16, 28, 20, 4, 522, 14, 378, 2, 16, -4, 128, 46, 2, 14, 16, 22, 78, 16, 16, 146, 10, 694, -4, 12, 14, 40, 16, 48, 462, -2, 48, 222, 4, 294, 140, 92, 18, 28, 604, -4, 254, 374, 482, 392, 244, 14, 40, 22, 576]
-Sample Mean : 125.52
-Sample Derivation : 183.71104232110565
-t statistic : 6.832468991200081
-p value : 1.6262379014363207e-09
+[4, 22, -10, 18, 260, 28, 308, 10, 166, 156, 14, 120, 2, 80, 38, 14, 32, 14, -10, -20, 228, 522, 0, 364, 416, -4, 398, 422, 282, 12, 200, 52, 10, 32, 18, -2, 20, 44, 12, 6, 96, 8, -2, -8, -10, 154, 76, 2190, 14, 12, 280, 432, 24, 24, 24, 0, -12, 90, 724, 288, 198, 620, 172, 22, -4, 2, 268, -12, 100, 248, 200, 202, 24, 18, 276, 0, 92, 74, 26, -36, 4, 56, 18, 62, 150, 4, 106, 4, 12, 12, 16, 12, 248, -4, 550, 0, 294, 6, 212, 400]
+
+Sample Mean : 133.34
+Sample Derivation : 260.94421478991103
+
+One tailed t test(right) to check that difference mean > 0
+H0 : Difference mean = 0.
+H1 : Difference mean  > 0.
+Assuming H0 is true,t statistic : 5.10990443330401
+Suppose the level of significance is 5%, Degrees of freedom=99
+Therefore, for right tailed t test, Critical value for the boundary of critical region : 1.984217
+If t statistic > 1.984217, there is enough evidence to reject H0
+There is enough evidence to reject H0. Therefore the difference mean > 0.
+So, misplaced tiles heuristics need more number of steps than manhattan distance heuristics. Therefore the manhattan distance heuristic is better.
+
+One tailed t test(left) to check that difference mean > 0
+H0 : Difference mean = 0.
+H1 : Difference mean  < 0.
+Assuming H0 is true,t statistic : 5.10990443330401
+Suppose the level of significance is 5%, Degrees of freedom=99
+Therefore, for right tailed t test, Critical value for the boundary of critical region : -1.984217
+If t statistic > -1.984217, there is enough evidence to reject H0
+There is not enough evidence to reject H0. Therefore there is not enough evidence to state difference mean < 0. SO, there is not enough evidence to state misplaced tiles heuristic is better than the manhattan distance heuristic.
